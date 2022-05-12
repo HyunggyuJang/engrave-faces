@@ -301,7 +301,10 @@ This function is lifted from htmlize."
        (rainbow-delimiters-depth-6-face     :short "rd-6"                :slug "rdf" :foreground "#6276ba")
        (rainbow-delimiters-depth-7-face     :short "rd-7"                :slug "rdg" :foreground "#858580")
        (rainbow-delimiters-depth-8-face     :short "rd-8"                :slug "rdh" :foreground "#80a880")
-       (rainbow-delimiters-depth-9-face     :short "rd-9"                :slug "rdi" :foreground "#887070"))))
+       (rainbow-delimiters-depth-9-face     :short "rd-9"                :slug "rdi" :foreground "#887070")
+       ;; Coq
+       (proof-tactics-name-face :short "pf" :slug "pf" :foreground "#9370db")
+       (coq-solve-tactics-face :short "coq" :slug "coq" :foreground "#ff0000"))))
   "A collection of named style presets.
 
 This takes the form of an alist with theme names as the cars, with
